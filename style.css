@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    max-height: 10%
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #4caf4f95;
+    
+
+}
+
+fieldset {
+    margin-bottom: 20px;
+    background-color:#4caf4f95 ;
+    
+}
+legend{
+    background-color: rgba(201, 131, 69, 0.504);
+}
+/* o problema era o display ('-') */
+input,label {
+    display: block;
+    margin-bottom: 5px;
+    display: inline-block;
+    
+}
+
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #cccccc;
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    border-radius: 5px;
+
+
+}
+div{
+    margin-bottom: 15px;
+    
+}

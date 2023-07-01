@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário Qualquer</h1>
+        <p>Complete com suas informações</p>
+        <hr>
+    </header>
+    <form action="#">
+        <fieldset>
+            <legend>Dados</legend>
+            <div style="margin-bottom: 10px;">
+                <label for="label-nome">Nome:</label>
+                <input required placeholder="Coloque aqui seu nome" id="label-nome" type="text">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label for="id-email">E-mail:</label>
+                <input required placeholder="Coloque aqui seu e-mail" type="email" id="id-email">
+            </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset style="margin-bottom: 10px;">
+            <legend>Seleção</legend>
+            <div>
+                <label for="">Pokémon:</label>
+                <select name="" id="">
+                    <option selected disabled>Pokémon choice</option>
+                    <option>Charmander</option>
+                    <option>Squirtle</option>
+                    <option>Bulbasaur</option>
+                    <option>Eevee</option>
+                    <option>Pikachu</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <legend>Radio Button</legend>
+            <div>
+                <input type="radio" name="bt-radio" id="bt-radio1">
+                <label for="bt-radio1">Item 1</label>
+            </div>
+            <div>
+                <input type="radio" name="bt-radio" id="bt-radio2">
+                <label for="bt-radio2">Item 2</label>
+            </div>
+            <div>
+                <input type="radio" name="bt-radio" id="bt-radio3">
+                <label for="bt-radio3">Item 3</label>
+            </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <legend>Checkbox</legend>
+            <div>
+                <input type="checkbox" id="chk1">
+                <label for="chk1">Item 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="chk2">
+                <label for="chk2">Item 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="chk3">
+                <label for="chk3">Item 3</label>
+            </div>
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <legend>Área de Texto</legend>
+            <div>
+                <textarea name="area-de-texto" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <hr>
+
+        <div style="text-align: center;">
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+        </div>
+    </form>
+</body>
+</html>
